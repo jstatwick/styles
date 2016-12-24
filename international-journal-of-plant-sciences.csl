@@ -86,9 +86,9 @@
     </group>
   </macro>
   <macro name="publisher">
-    <group delimiter=": ">
-      <text variable="publisher-place"/>
+    <group delimiter=", ">
       <text variable="publisher"/>
+      <text variable="publisher-place"/>
     </group>
   </macro>
   <macro name="pages">
